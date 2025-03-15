@@ -95,7 +95,6 @@ if upload is not None:
     # Feedback Button
     if st.button('✅ Correct Prediction'):
         st.success('Glad to hear that! 🎉')
-        st.ballons()
     if st.button('❌ Incorrect Prediction'):
         st.warning('Sorry about that! Model will learn better next time.')
 
